@@ -1,0 +1,13 @@
+.grid-container{
+    background-color: grey;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 50px;
+}
+
+.grid-container > div{
+    width: 200px;
+    background-color: green;
+    height: 100px;
+}
